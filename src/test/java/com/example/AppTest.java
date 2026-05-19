@@ -1,7 +1,11 @@
 package com.example;
 
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello from Jenkins Maven Demo!");
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class AppTest {
+    @Test
+    void testApp() {
+        assertTrue(true);
     }
 }
