@@ -1,5 +1,3 @@
-# Jenkinsfile
-cat > Jenkinsfile << 'EOF'
 pipeline {
     agent any
     tools {
@@ -39,4 +37,3 @@ pipeline {
         failure { echo "Build FAILED!" }
     }
 }
-EOF
